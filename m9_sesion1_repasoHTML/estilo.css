@@ -1,0 +1,74 @@
+
+/* Estilos css */
+
+/* selector de etiqueta */
+h3{
+  background-color: brown;
+}
+
+/* selector de clase */
+.alerta{
+  background-color: red;
+  color: white;
+}
+.textoGrande{
+  font-size: 30px;
+}
+
+/* selector de id */
+#seccion1{
+  border: 3px dotted grey;
+  margin: 20px;
+  padding: 20px 5px 1px 0px;
+}
+
+/* selector combinado */
+
+nav li{
+  background-color: blue;
+}
+nav>ul>li>a{
+  color: white;
+}
+.alerta+p{
+  background-color:pink;
+}
+
+/* pseudoselectores */
+a:hover{
+  background-color: black;
+  color:white;
+}
+
+a:visited{
+  background-color: blueviolet;
+}
+
+/* selectores con predicado */
+input[name]{
+  border: 2px solid grey;
+}
+input[name="numero"]{
+  background-color: bisque;
+}
+
+/* General */
+*{
+  padding: 0;
+  margin: 0;
+}
+/* menu */
+nav{
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+nav ul{
+  border: 1px solid;
+  list-style: none;
+  display: flex;
+  justify-content:space-between;
+}
+
+nav ul li a{
+  text-decoration: none;
+}

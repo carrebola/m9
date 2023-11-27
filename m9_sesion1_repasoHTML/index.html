@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>S1 Repaso html</title>
+		<style>
+			p{
+				background-color: aquamarine;
+			}
+		</style>
+		<link rel="stylesheet" href="estilo.css">
+		</head>
+		<body>
+			<!-- body -->
+			<header>
+				<img width="50" src="https://static.fundacion-affinity.org/cdn/farfuture/PVbbIC-0M9y4fPbbCsdvAD8bcjjtbFc0NSP3lRwlWcE/mtime:1643275542/sites/default/files/los-10-sonidos-principales-del-perro.jpg" alt="Perro logo de la web">
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#seccion1">Sección 1</a></li>
+						<li><a href="#seccion2">Sección 2</a></li>
+					</ul>
+				</nav>
+
+			</header>
+			<main>
+				<h1 style="background-color: yellowgreen;">Título principal. Solo debe haber 1 h1</h1>
+				<h2>Subtítulo</h2>
+				<section id="seccion1">
+					<h2>Sección 1</h2>
+					<p>Esto es un párrafo dentro de la sección</p>
+					<h3>Lista ordenada</h3>
+					<ol>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+					</ol>
+					<h3>Lista desordenada</h3>
+					<ul>
+						<li>item 1</li>
+						<li>item 2</li>
+						<li>item 3</li>
+					</ul>
+					<h3>Listas de definición</h3>
+					<dl>
+						<td>Perro</td>
+						<dd>Animal con cuatro patas muy simpático</dd>
+						<td>Gato</td>
+						<dd>Animal con cuatro patas muy simpático también</dd>
+					</dl>
+				</section>
+				<section id="seccion2">
+					<h2>Sección 2</h2>
+					<div id="informacion">
+						<h3>Esto es un <span lang="en">Iphone</span></h3>
+						<p class="alerta textoGrande">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit nam rerum optio beatae. Qui, commodi dicta quibusdam odit amet omnis possimus iusto praesentium numquam, blanditiis facilis quaerat sint minus esse.</p>
+						<p>Pink ipsum dolor sit amet consectetur, adipisicing elit. Fugit nam rerum optio beatae. Qui, commodi dicta quibusdam odit amet omnis possimus iusto praesentium numquam, blanditiis facilis quaerat sint minus esse.</p>
+						<p class="alerta">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aut doloribus, possimus nihil impedit iste magnam rerum nisi et natus beatae optio suscipit omnis porro numquam deserunt mollitia reprehenderit dicta.</p>
+						
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maiores modi nesciunt minima, quod voluptates quisquam? Dolore accusamus, repudiandae illum inventore eum quae pariatur sunt, non nisi natus modi facere.</p>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium labore, deserunt quod esse sunt ratione pariatur ut? Amet, provident nihil reiciendis vitae quibusdam aliquid sapiente velit, temporibus ipsam est itaque.</p>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, quia? Veniam aliquid eligendi quidem totam quae! Odio ducimus sint laudantium quasi similique amet, accusantium provident dignissimos repellat, facere obcaecati quidem?</p>
+				</section>
+				<hr>
+				<section id="seccion3">
+					<form action="datos.php">
+						<label for="nombre">Nombre: </label>
+						<input id="nombre" name="nombre" type="text" value="" placeholder="Aquí va el nombre">
+						<br>
+						<label for="numero">Número: </label>
+						<input id="numero" name="numero" type="number" max="99" min="18">
+						<br>
+						<label for="descripcion">Descripción: </label>
+						<textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+						<br>
+						<select name="fruta" id="fruta">
+							<option value="manzana">MANZANA</option>
+							<option value="2">fresa</option>
+						</select>
+						<br>
+						<label for="vehiculo">moto</label>
+						<input type="radio" name="vehiculo" id="vehiculo" value="moto">
+						<label for="vehiculo2">coche</label>
+						<input type="radio" name="vehiculo" id="vehiculo2" value="coche">
+						<br>
+						<label for="carnet">Con carnet</label>
+						<input type="checkbox" id="carnet" name="carnet" value="con carnet de conducir">
+						<br>
+						<button type="submit">Enviar</button>
+					</form>
+				</section>
+			</main>
+			<footer>Esto es el pie de página</footer>
+	  </body>
+</html>

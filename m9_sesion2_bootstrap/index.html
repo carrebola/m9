@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sesión 2 Bootstrap</title>
+  <style>
+    h2{
+      background-color: brown;
+    }
+
+    @media ( 400px <= width <= 800px ){
+      h2{
+        background-color: aqua;
+      }
+    }
+
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+  ">
+</head>
+<body>
+  <nav class="position-absolute top-0 bg-dark text-light w-100">
+    Esto es un menú
+  </nav>
+  <div class="container pt-5">
+    <h1>Sesión 2 - Bootstrap</h1>
+  <h2>Concepto RESPONSIVE</h2>
+  <h3>Bootstrap</h3>
+  <p class="bg-secondary-subtle m-5 pt-3 pb-5 ps-5 pe-3 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea sit velit nulla xxx laborum ratione deserunt, odit neque voluptate laudantium iste minus tempore inventore, labore ab. Harum doloribus illo praesentium.</p>
+  <p class="bg-primary text-light m-3 py-3 px-2 border border-warning border-3 border-bottom-0 rounded-5 shadow ">Primary</p>
+  <p class="bg-secondary d-none">Secondary</p>
+  <p class="bg-success d-inline-block  w-25 invisible">Success</p>
+  <p class="bg-warning d-inline-block" style="width:180px">Warning</p>
+  <p class="bg-info opacity-50">Info</p>
+  <p class="bg-light text-end">Light</p>
+  <p class="text-bg-dark">Dark</p>
+
+  <div class=" d-flex align-items-center justify-content-center   w-50 border border-dark border-2 mx-auto fs-1" style="height: 400px;">texto</div>
+  <div class="foto border border-dark border-3" style="max-width: 800px;">
+    <img class="img-fluid" src="https://fotografias.lasexta.com/clipping/cmsimages02/2020/09/21/86828440-B1FB-43AC-9E9C-A94AC6A4B8BD/default.jpg?crop=1300,731,x0,y0&width=1200&height=675&optimize=low" alt="">
+  </div>
+  </div>
+  <a class="icon-link" href="#">
+    <svg class="bi" aria-hidden="true"><use xlink:href="#box-seam"></use></svg>
+    Icon link
+  </a>
+
+  <br><br><br>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+  "></script>
+</body>
+</html>
