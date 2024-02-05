@@ -1,5 +1,6 @@
 @import './variables';
 
+@import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
   background-color: white;
@@ -22,6 +23,7 @@ p {
 .boton {
   width: 100px;
   padding: 10px;
+  margin: 10px
 }
 
 // Nesting
@@ -61,5 +63,5 @@ ul {
 
 .parrafo {
   color: blue;
-  @include letraChica(5px);
+  @include letraChica(10px);
 }
